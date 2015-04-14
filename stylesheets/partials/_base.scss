@@ -16,3 +16,14 @@ body {
     max-width: 800px;
     padding-bottom: 4em;
 }
+
+/*==========Grid==========*/
+.md_left, .md_right {
+    background-color: rgb(0, 89, 87);
+    width: 48%;
+    float: left;
+}
+
+.md_left  {
+    margin-right: 2%;
+}

@@ -100,6 +100,15 @@ body img {
   max-width: 800px;
   padding-bottom: 4em; }
 
+/*==========Grid==========*/
+.md_left, .md_right {
+  background-color: #005957;
+  width: 48%;
+  float: left; }
+
+.md_left {
+  margin-right: 2%; }
+
 /*Variables for French Quarter Festival*/
 /*Variables for StyleGuide*/
 h1, h2, h3 {
