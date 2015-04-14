@@ -13,6 +13,10 @@ $lt_text: #ffffff;
 /*Variables for Style Guide*/
 
 $primary_text: #555;
+$jewel: rgb(0, 89, 87);
+$rare_jewel: rgba(0, 89, 87, .8);
 
 
 h1, h2, h3, p, a, span, li {color:$primary_text;}
+
+header {background-color:$rare_jewel;}

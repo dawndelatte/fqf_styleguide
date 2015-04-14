@@ -4,11 +4,17 @@
   padding: 0;
   width: 100%;
   display: block;
-  list-style: none; }
+  list-style: none;
+  padding: 2em;
+  text-align: right; }
 
 .nav-collapse li {
   width: 100%;
-  display: block; }
+  display: block;
+  padding-bottom: 1em; }
+  .nav-collapse li a {
+    color: white;
+    text-decoration: none; }
 
 .js .nav-collapse {
   clip: rect(0 0 0 0);
@@ -16,10 +22,13 @@
   position: absolute;
   display: block;
   overflow: hidden;
-  zoom: 1; }
+  zoom: 1;
+  width: 100%;
+  float: right; }
 
 .nav-collapse.opened {
-  max-height: 9999px; }
+  max-height: 9999px;
+  overflow: hidden; }
 
 .nav-toggle {
   -webkit-tap-highlight-color: transparent;
@@ -28,9 +37,19 @@
   -moz-user-select: none;
   -ms-user-select: none;
   -o-user-select: none;
-  user-select: none; }
+  user-select: none;
+  display: block;
+  overflow: hidden;
+  color: white;
+  padding: 2em 2em;
+  float: right;
+  text-decoration: none;
+  text-transform: uppercase; }
 
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 43.75em) {
+  .nav-collapse li {
+    display: inline-block; }
+
   .js .nav-collapse {
     position: relative; }
 
@@ -94,27 +113,44 @@ body img {
   max-width: 100%;
   display: block; }
 
-.big_mama {
+.lil_mama {
   width: 90%;
   margin: 0 auto;
-  max-width: 800px;
+  max-width: 900px;
   padding-bottom: 4em; }
 
+header {
+  overflow: hidden;
+  position: fixed;
+  width: 100%; }
+
 /*==========Grid==========*/
+.sm_grid {
+  background-color: #005957; }
+
 .md_left, .md_right {
   background-color: #005957;
   width: 48%;
   float: left; }
 
 .md_left {
-  margin-right: 2%; }
+  margin-right: 4%; }
+
+.lg_left, .lg_right, .lg_nav {
+  background-color: #005957;
+  width: 30%;
+  float: left; }
+
+.lg_left {
+  margin-right: 5%;
+  margin-left: 5%; }
 
 /*Variables for French Quarter Festival*/
 /*Variables for StyleGuide*/
 h1, h2, h3 {
   font-family: Helvetica, sans-serif; }
 
-a, p, li, span {
+a, p, span {
   font-family: Helvetica, sans-serif;
   font-weight: 300;
   font-size: 1.25em;
@@ -138,10 +174,11 @@ h3 {
   font-family: "phoreuscherokee", sans-serif; }
 
 h1 {
-  padding: 1em 0; }
+  padding-top: 3em;
+  padding-bottom: 1em; }
 
 h2 {
-  padding: 2em 0 1em 0; }
+  padding: 1em 0 1em 0; }
 
 h3 {
   padding: 1em 0; }
@@ -153,5 +190,28 @@ p {
 /*Variables for Style Guide*/
 h1, h2, h3, p, a, span, li {
   color: #555; }
+
+header {
+  background-color: rgba(0, 89, 87, 0.8); }
+
+@media screen and (min-width: 43.75em) {
+  header {
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    float: left; }
+
+  h1 {
+    padding-top: 1em; }
+
+  .lil_mama {
+    float: right;
+    margin: 0 auto;
+    padding-left: 200px;
+    padding-right: 2em; } }
+@media screen and (min-width: 55em) {
+  .lil_mama {
+    float: none;
+    margin: 0 auto; } }
 
 /*# sourceMappingURL=main.css.map */

@@ -13,7 +13,7 @@ h1, h2, h3 {
     font-family: $styleguide;
 }
 
-a, p, li, span {
+a, p, span {
     font-family: $styleguide;
     font-weight: 300;
     font-size: 1.25em;
@@ -27,7 +27,7 @@ h3 {font-size: 2em;}
 .azo p {font-family: $primary;}
 .phoreus p {font-family: $head;}
 
-h1 {padding: 1em 0;}
-h2 {padding: 2em 0 1em 0;}
+h1 {padding-top: 3em; padding-bottom: 1em;}
+h2 {padding: 1em 0 1em 0;}
 h3 {padding: 1em 0;}
 p {padding-bottom: 1em;}
