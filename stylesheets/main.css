@@ -126,12 +126,17 @@ header {
 
 /*==========Grid==========*/
 .sm_grid {
-  background-color: #005957; }
+  background-color: #005957;
+  padding: 1em; }
 
 .md_left, .md_right {
   background-color: #005957;
   width: 48%;
-  float: left; }
+  float: left;
+  padding: 1em; }
+
+.md_grid, .lg_grid {
+  overflow: hidden; }
 
 .md_left {
   margin-right: 4%; }
@@ -139,7 +144,8 @@ header {
 .lg_left, .lg_right, .lg_nav {
   background-color: #005957;
   width: 30%;
-  float: left; }
+  float: left;
+  padding: 1em; }
 
 .lg_left {
   margin-right: 5%;
@@ -178,13 +184,16 @@ h1 {
   padding-bottom: 1em; }
 
 h2 {
-  padding: 1em 0 1em 0; }
+  padding: 3em 0 1em 0; }
 
 h3 {
   padding: 1em 0; }
 
 p {
   padding-bottom: 1em; }
+
+.lg_left, .lg_right, .lg_nav, .md_left, .md_right, .sm_grid {
+  font-family: Helvetica, sans-serif; }
 
 /*Variables for French Quarter Festival*/
 /*Variables for Style Guide*/
@@ -193,6 +202,9 @@ h1, h2, h3, p, a, span, li {
 
 header {
   background-color: rgba(0, 89, 87, 0.8); }
+
+.lg_left, .lg_right, .lg_nav, .md_left, .md_right, .sm_grid {
+  color: white; }
 
 @media screen and (min-width: 43.75em) {
   header {

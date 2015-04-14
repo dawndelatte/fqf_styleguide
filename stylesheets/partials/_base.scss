@@ -25,12 +25,15 @@ header {
 
 /*==========Grid==========*/
 
-.sm_grid {background-color: rgb(0, 89, 87)}
+.sm_grid {background-color: rgb(0, 89, 87); padding: 1em;}
 .md_left, .md_right {
     background-color: rgb(0, 89, 87);
     width: 48%;
     float: left;
+    padding: 1em;
 }
+
+.md_grid, .lg_grid {overflow: hidden;}
 
 .md_left {
     margin-right: 4%;
@@ -40,6 +43,7 @@ header {
     background-color: rgb(0, 89, 87);
     width: 30%;
     float: left;
+    padding: 1em;
 }
 .lg_left  {
     margin-right: 5%;
