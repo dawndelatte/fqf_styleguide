@@ -56,44 +56,104 @@ header {
 }
 
 /*==========Color==========*/
+.red {
+    overflow: hidden;
+    margin-bottom: 2em;
 .red_block {
 
     width: 100px;
     height: 100px;
     background-color: $primary_red;
+    float: left;
 }
+
+ul {
+    margin-left: 5%;
+    float: left;
+}
+}
+
+
+.teal {
+    overflow: hidden;
+    margin-bottom: 2em;
 .teal_block {
 
     width: 100px;
     height: 100px;
     background-color: $primary_teal;
+    float: left;
 }
+ul {
+    margin-left: 5%;
+    float: left;
+}
+}
+
+
+.yellow {
+    overflow: hidden;
+    margin-bottom: 2em;
 .yellow_block {
 
     width: 100px;
     height: 100px;
     background-color: $primary_yellow;
+    float: left;
 }
+ul {
+    margin-left: 5%;
+    float: left;
+}
+}
+
+.highlight {
+    overflow: hidden;
+    margin-bottom: 2em;
 .highlight_block {
 
     width: 100px;
     height: 100px;
     background-color: $logo_highlight;
+    float: left;
+}
+ul {
+    margin-left: 5%;
+    float: left;
+}
 }
 
+.dk_grey {
+    overflow: hidden;
+    margin-bottom: 2em;
 .dkgrey_block {
 
     width: 100px;
     height: 100px;
     background-color: $dk_text;
+    float: left;
+}
+ul {
+    margin-left: 5%;
+    float: left;
+}
 }
 
+.white {
+    overflow: hidden;
+    margin-bottom: 2em;
 .white_block {
 
     width: 100px;
     height: 100px;
     background-color: $lt_text;
     border: 1px solid #ccc;
+    float: left;
+}
+ul {
+    margin-left: 5%;
+    float: left;
+}
 }
 /*==========Logo and Icons==========*/
 .sm_logo{

@@ -127,6 +127,12 @@ a, p, span {
   font-size: 1.25em;
   line-height: 1.55; }
 
+li {
+  font-family: Helvetica, sans-serif;
+  font-size: 1.2em;
+  line-height: 1.4;
+  font-weight: 300; }
+
 h1 {
   font-size: 3.25em;
   font-weight: 700; }
@@ -237,36 +243,78 @@ header {
   padding-top: 2em; }
 
 /*==========Color==========*/
-.red_block {
-  width: 100px;
-  height: 100px;
-  background-color: #c70b0f; }
+.red {
+  overflow: hidden;
+  margin-bottom: 2em; }
+  .red .red_block {
+    width: 100px;
+    height: 100px;
+    background-color: #c70b0f;
+    float: left; }
+  .red ul {
+    margin-left: 5%;
+    float: left; }
 
-.teal_block {
-  width: 100px;
-  height: 100px;
-  background-color: #4c9bac; }
+.teal {
+  overflow: hidden;
+  margin-bottom: 2em; }
+  .teal .teal_block {
+    width: 100px;
+    height: 100px;
+    background-color: #4c9bac;
+    float: left; }
+  .teal ul {
+    margin-left: 5%;
+    float: left; }
 
-.yellow_block {
-  width: 100px;
-  height: 100px;
-  background-color: #dce269; }
+.yellow {
+  overflow: hidden;
+  margin-bottom: 2em; }
+  .yellow .yellow_block {
+    width: 100px;
+    height: 100px;
+    background-color: #dce269;
+    float: left; }
+  .yellow ul {
+    margin-left: 5%;
+    float: left; }
 
-.highlight_block {
-  width: 100px;
-  height: 100px;
-  background-color: #dfe925; }
+.highlight {
+  overflow: hidden;
+  margin-bottom: 2em; }
+  .highlight .highlight_block {
+    width: 100px;
+    height: 100px;
+    background-color: #dfe925;
+    float: left; }
+  .highlight ul {
+    margin-left: 5%;
+    float: left; }
 
-.dkgrey_block {
-  width: 100px;
-  height: 100px;
-  background-color: #4b4648; }
+.dk_grey {
+  overflow: hidden;
+  margin-bottom: 2em; }
+  .dk_grey .dkgrey_block {
+    width: 100px;
+    height: 100px;
+    background-color: #4b4648;
+    float: left; }
+  .dk_grey ul {
+    margin-left: 5%;
+    float: left; }
 
-.white_block {
-  width: 100px;
-  height: 100px;
-  background-color: #ffffff;
-  border: 1px solid #ccc; }
+.white {
+  overflow: hidden;
+  margin-bottom: 2em; }
+  .white .white_block {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    float: left; }
+  .white ul {
+    margin-left: 5%;
+    float: left; }
 
 /*==========Logo and Icons==========*/
 .sm_logo {
