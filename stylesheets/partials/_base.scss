@@ -109,3 +109,42 @@ header {
 .process img {
     padding-bottom: 1.5em;
 }
+
+/*==========Icon Set==========*/
+.veg, .gf {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+}
+
+.veg {margin-bottom: 2em;}
+
+.trombone {
+    width: 200px;
+    height: 200px;
+    position: relative;
+
+    img {
+        position: absolute;
+    }
+    
+        .animated_trombone_handle {
+
+            top: 62px;
+            left: 64px;
+        }
+}
+
+.umbrella, .streetcar {
+    width: 200px;
+    height: 200px;
+}
+
+
+
+
+
+
+
+
