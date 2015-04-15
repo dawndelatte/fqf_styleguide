@@ -33,3 +33,19 @@ h3 {padding: 1em 0;}
 p {padding-bottom: 1em;}
 
 .lg_left, .lg_right, .lg_nav, .md_left, .md_right, .sm_grid {font-family: $styleguide;}
+
+.phoreus  {
+	h3 {padding-bottom: 0;}
+	span {display: block; padding-bottom: 1em;}
+	p {font-size: 2em;}
+	.nope {font-family: $styleguide; font-size: 1.25em;}
+	.example {padding-bottom: 0;}
+	h2 {padding-top: .5em;}
+}
+.azo  {
+	h3 {padding-bottom: 0;}
+	span {display: block; padding-bottom: 1em;}
+	p {font-size: 2em;}
+	.nope {font-family: $styleguide; font-size: 1.25em;}
+	// h2 .example, h3 .example {padding-bottom: 0; padding-top: .5em;}
+}

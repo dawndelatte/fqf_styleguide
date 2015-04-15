@@ -50,61 +50,78 @@
 				</div>
 			</div>
 			<div class="type" id="type">
-				<h2>Type System</h2>
+				<h2 class="top">Type System</h2>
 				<p>Lorem ipsum dolor sit amet, autem inani an sit, libris maluisset adipiscing ea eum, decore adipisci ei nam. Ea erant tritani apeirian eam, ad duis phaedrum pri.</p>
 				<div class="phoreus">
 				<h3>Phoreus Cherokee</h3>
 				<span>by TypeCulture</span>
+				<p class="nope">Variable = $head: "phoreuscherokee",sans-serif;</p>
 				<p>Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Zx Yy Zz</p>
-				<p>Variable = $head: "phoreuscherokee",sans-serif;</p>
-				<h1>Header One—Base 3.25em</h1>
-				<h2>Header Two—Base 2.5em</h2>
-				<h3>Header Three—Base 2.25em</h3>
+				<h1 class="example">Header One—Base 3.25em</h1>
+				<h2 class="example">Header Two—Base 2.5em</h2>
+				<h3 class="example">Header Three—Base 2.25em</h3>
 				</div>
 				<div class="azo">
-					<h3>Azo Sans by Rui Abreu</h3>
+					<h3>Azo Sans</h3> 
+					<span> by Rui Abreu</span>
+					<p class="nope">Variable = $primary: "azo-sans-web",sans-serif;</p>
 					<p>Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Zx Yy Zz</p>
-					<p>Variable = $primary: "azo-sans-web",sans-serif;</p>
-					<p>Paragraph—Base 1.25em, line height 1.5</p>
+
+					<p class="nope">Paragraph—Base 1.25em, line height 1.5</p>
 				</div>
 
 			</div>
 			<div class="color" id="color">
-				<h2>Color Palette</h2>
+				<h2 class="top">Color Palette</h2>
 				<h3>Primary</h3>
-				<div class="crawfish_red">
-				<div class="color"></div>
-				<p>rbga(255,255,255)</p>
-				<p>hex#000000</p>
-				<p>Variable = $red</p>
+				<div class="red">
+				<div class="red_block"></div>
+				<p>rgb(199, 11, 15)</p>
+				<p>hex#c70b0f</p>
+				<p>Variable = $primary_red</p>
 				</div>
-				<div class="shutter_blue">
-					<div class="color"></div>
-				<p>rbga(255,255,255)</p>
-				<p>hex#000000</p>
-				<p>Variable = $tealish</p>
+				<div class="teal">
+					<div class="teal_block"></div>
+				<p>rgb(76, 155, 172)</p>
+				<p>hex#4c9bac</p>
+				<p>Variable = $primary_teal</p>
 				</div>
-				<div class="green_haze">
-					<div class="color"></div>
-				<p>rbga(255,255,255)</p>
-				<p>hex#000000</p>
-				<p>Variable = $yellowish</p>
+				<div class="yellow">
+					<div class="yellow_block"></div>
+				<p>rgb(220, 226, 105)</p>
+				<p>hex#dce269</p>
+				<p>Variable = $primary_yellow</p>
 				</div>
-				<div class="logo"><p>Hightlights &amp; Logo</div>
+				<div class="highlight">
+					<div class="highlight_block"></div>
+				<p>rgb(223, 233, 37)</p>
+				<p>hex#dce269</p>
+				<p>Variable = $logo_highlight</p>
+				</div>
 				<p>Lorem ipsum dolor sit amet, autem inani an sit, libris maluisset adipiscing ea eum, decore adipisci ei nam. Ea erant tritani apeirian eam, ad duis phaedrum pri.</p>
 				<h3>Secondary</h3>
-				<div class="dk_grey"></div>
-				<div class="white"></div>
+				<div class="dk_grey">
+				<div class="dkgrey_block"></div>
+					<p>rgb(75, 70, 72)</p>
+				<p>hex#4b4648</p>
+				<p>Variable = $dk_text</p>
+				</div>
+				<div class="white">
+				<div class="white_block"></div>
+					<p>rgb(255, 255, 255)</p>
+				<p>hex#ffffff</p>
+				<p>Variable = $lt_text</p>
+				</div>
 				<p>Lorem ipsum dolor sit amet, autem inani an sit, libris maluisset adipiscing ea eum, decore adipisci ei nam. Ea erant tritani apeirian eam, ad duis phaedrum pri.</p>
 			</div>
 			<div class="logo_icons" id="logo_icons">
 			<div class="logo">
-				<h2>FQF Logo</h2>
+				<h2 class="top">FQF Logo</h2>
 				<p>Lorem ipsum dolor sit amet, autem inani an sit, libris maluisset adipiscing ea eum, decore adipisci ei nam. Ea erant tritani apeirian eam, ad duis phaedrum pri.</p>
 				<h3>Small Device &amp; Favicon</h3>
-				<div class="sm_logo"></div>
+				<div class="sm_logo"><img src="assets/fqf_logo_sm.svg"></div>
 				<h3>Full Size</h3>
-				<div class="lg_logo"></div>
+				<div class="lg_logo"><img src="assets/fqf_logo_lg.svg"></div>
 				</div>
 				<div class="icons">
 				<h2>Icon Set</h2>
@@ -119,13 +136,13 @@
 				</div>
 			</div>
 			<div class="images_svgs" id="images_svgs">
-			<h2>Images, SVGs, &amp; iFrames</h2>
+			<h2 class="top">Images, SVGs, &amp; iFrames</h2>
 			<p>Lorem ipsum dolor sit amet, autem inani an sit, libris maluisset adipiscing ea eum, decore adipisci ei nam. Ea erant tritani apeirian eam, ad duis phaedrum pri. Id sea iisque aperiam tractatos, wisi praesent cum et. Usu te eros fastidii ullamcorper. Agam phaedrum no eos.</p>
 			</div>
 			<div class="image_screenshot"></div>
 			<div class="svg_screenshot"></div>
 			<div class="elements" id="elements">
-				<h2>Elements</h2>
+				<h2 class="top">Elements</h2>
 				<h3>Links &amp; Hovers</h3>
 				<p>Lorem ipsum dolor sit amet, autem inani an sit, libris maluisset adipiscing ea eum, decore adipisci ei nam. Ea erant tritani apeirian eam, ad duis phaedrum pri. Id sea iisque aperiam tractatos, wisi praesent cum et. Usu te eros fastidii ullamcorper. Agam phaedrum no eos.</p>
 				<div class="main"></div>
@@ -139,7 +156,7 @@
 				<p>Lorem ipsum dolor sit amet, autem inani an sit, libris maluisset adipiscing ea eum, decore adipisci ei nam. Ea erant tritani apeirian eam, ad duis phaedrum pri. Id sea iisque aperiam tractatos, wisi praesent cum et. Usu te eros fastidii ullamcorper. Agam phaedrum no eos.</p>
 			</div>
 			<div class="process" id="process">
-			<h2>Process</h2>
+			<h2 class="top">Process</h2>
 				<h3>Sketching &amp; Planning</h3>
 				<img src ="assets/fqf_sketch_schedule.jpg">
 				<img src ="assets/fqf_sketch_food.jpg">

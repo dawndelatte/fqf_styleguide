@@ -1,3 +1,50 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
 /*! responsive-nav.js 1.0.39 by @viljamis */
 .nav-collapse ul {
   margin: 0;
@@ -58,52 +105,86 @@
 
   .nav-toggle {
     display: none; } }
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline; }
+/*Variables for French Quarter Festival*/
+/*Variables for Style Guide*/
+h1, h2, h3, p, a, span, li {
+  color: #555; }
 
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block; }
+header {
+  background-color: rgba(0, 89, 87, 0.8); }
 
-body {
-  line-height: 1; }
+.lg_left, .lg_right, .lg_nav, .md_left, .md_right, .sm_grid {
+  color: white; }
 
-ol, ul {
-  list-style: none; }
+/*Variables for French Quarter Festival*/
+/*Variables for StyleGuide*/
+h1, h2, h3 {
+  font-family: Helvetica, sans-serif; }
 
-blockquote, q {
-  quotes: none; }
+a, p, span {
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 1.25em;
+  line-height: 1.55; }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none; }
+h1 {
+  font-size: 3.25em;
+  font-weight: 700; }
 
-table {
-  border-collapse: collapse;
-  border-spacing: 0; }
+h2 {
+  font-size: 3em;
+  font-weight: 700; }
+
+h3 {
+  font-size: 2em; }
+
+.azo p {
+  font-family: "azo-sans-web", sans-serif; }
+
+.phoreus p {
+  font-family: "phoreuscherokee", sans-serif; }
+
+h1 {
+  padding-top: 3em;
+  padding-bottom: 1em; }
+
+h2 {
+  padding: 3em 0 1em 0; }
+
+h3 {
+  padding: 1em 0; }
+
+p {
+  padding-bottom: 1em; }
+
+.lg_left, .lg_right, .lg_nav, .md_left, .md_right, .sm_grid {
+  font-family: Helvetica, sans-serif; }
+
+.phoreus h3 {
+  padding-bottom: 0; }
+.phoreus span {
+  display: block;
+  padding-bottom: 1em; }
+.phoreus p {
+  font-size: 2em; }
+.phoreus .nope {
+  font-family: Helvetica, sans-serif;
+  font-size: 1.25em; }
+.phoreus .example {
+  padding-bottom: 0; }
+.phoreus h2 {
+  padding-top: .5em; }
+
+.azo h3 {
+  padding-bottom: 0; }
+.azo span {
+  display: block;
+  padding-bottom: 1em; }
+.azo p {
+  font-size: 2em; }
+.azo .nope {
+  font-family: Helvetica, sans-serif;
+  font-size: 1.25em; }
 
 body * {
   -webkit-box-sizing: border-box;
@@ -151,60 +232,54 @@ header {
   margin-right: 5%;
   margin-left: 5%; }
 
-/*Variables for French Quarter Festival*/
-/*Variables for StyleGuide*/
-h1, h2, h3 {
-  font-family: Helvetica, sans-serif; }
+/*==========Type==========*/
+.azo {
+  padding-top: 2em; }
 
-a, p, span {
-  font-family: Helvetica, sans-serif;
-  font-weight: 300;
-  font-size: 1.25em;
-  line-height: 1.55; }
+/*==========Color==========*/
+.red_block {
+  width: 100px;
+  height: 100px;
+  background-color: #c70b0f; }
 
-h1 {
-  font-size: 3.25em;
-  font-weight: 700; }
+.teal_block {
+  width: 100px;
+  height: 100px;
+  background-color: #4c9bac; }
 
-h2 {
-  font-size: 3em;
-  font-weight: 700; }
+.yellow_block {
+  width: 100px;
+  height: 100px;
+  background-color: #dce269; }
 
-h3 {
-  font-size: 2em; }
+.highlight_block {
+  width: 100px;
+  height: 100px;
+  background-color: #dfe925; }
 
-.azo p {
-  font-family: "azo-sans-web", sans-serif; }
+.dkgrey_block {
+  width: 100px;
+  height: 100px;
+  background-color: #4b4648; }
 
-.phoreus p {
-  font-family: "phoreuscherokee", sans-serif; }
+.white_block {
+  width: 100px;
+  height: 100px;
+  background-color: #ffffff;
+  border: 1px solid #ccc; }
 
-h1 {
-  padding-top: 3em;
-  padding-bottom: 1em; }
+/*==========Logo and Icons==========*/
+.sm_logo {
+  width: 100px;
+  height: 100px; }
 
-h2 {
-  padding: 3em 0 1em 0; }
+.lg_logo {
+  width: 200px;
+  height: 200px; }
 
-h3 {
-  padding: 1em 0; }
-
-p {
-  padding-bottom: 1em; }
-
-.lg_left, .lg_right, .lg_nav, .md_left, .md_right, .sm_grid {
-  font-family: Helvetica, sans-serif; }
-
-/*Variables for French Quarter Festival*/
-/*Variables for Style Guide*/
-h1, h2, h3, p, a, span, li {
-  color: #555; }
-
-header {
-  background-color: rgba(0, 89, 87, 0.8); }
-
-.lg_left, .lg_right, .lg_nav, .md_left, .md_right, .sm_grid {
-  color: white; }
+/*==========Process==========*/
+.process img {
+  padding-bottom: 1.5em; }
 
 @media screen and (min-width: 43.75em) {
   header {

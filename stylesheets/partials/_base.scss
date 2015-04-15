@@ -50,3 +50,62 @@ header {
     margin-left: 5%;
 }
 
+/*==========Type==========*/
+.azo {
+    padding-top: 2em;
+}
+
+/*==========Color==========*/
+.red_block {
+
+    width: 100px;
+    height: 100px;
+    background-color: $primary_red;
+}
+.teal_block {
+
+    width: 100px;
+    height: 100px;
+    background-color: $primary_teal;
+}
+.yellow_block {
+
+    width: 100px;
+    height: 100px;
+    background-color: $primary_yellow;
+}
+.highlight_block {
+
+    width: 100px;
+    height: 100px;
+    background-color: $logo_highlight;
+}
+
+.dkgrey_block {
+
+    width: 100px;
+    height: 100px;
+    background-color: $dk_text;
+}
+
+.white_block {
+
+    width: 100px;
+    height: 100px;
+    background-color: $lt_text;
+    border: 1px solid #ccc;
+}
+/*==========Logo and Icons==========*/
+.sm_logo{
+    width: 100px;
+    height: 100px;
+}
+.lg_logo {
+    width: 200px;
+    height: 200px;
+}
+/*==========Process==========*/
+
+.process img {
+    padding-bottom: 1.5em;
+}
