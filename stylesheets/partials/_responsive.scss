@@ -13,6 +13,9 @@
 		padding-left: 200px;
 		padding-right: 2em;
 	}
+.styleguide_logo {
+	margin: 2em 3.75em;
+}
 
 }
 
@@ -21,4 +24,15 @@
 		float: none;
 		margin: 0 auto;
 	}
+
+	.side_nav, .side_foot {
+		width: 48%;
+		float: left;
+	}
+
+	.side_nav {
+		margin-right: 4%;
+	}
+
+	.clear {clear:both;}
 }

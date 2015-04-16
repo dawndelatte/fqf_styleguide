@@ -12,6 +12,7 @@
 	<body>
 	<div class="big_mama">
 		<header>
+		<div class="styleguide_logo"><img src="assets/styleguide_logo.svg"></div>
 		<nav class="nav-collapse">
 			<ul>
 				<li><a href="#intro">Intro</a></li>
@@ -34,7 +35,7 @@
 			</div>
 			<div class="grid" id="grid">
 			<h2>Grid System</h2>
-				<p>Lorem ipsum dolor sit amet, autem inani an sit, libris maluisset adipiscing ea eum, decore adipisci ei nam. Ea erant tritani apeirian eam, ad duis phaedrum pri. Id sea iisque aperiam tractatos, wisi praesent cum et. Usu te eros fastidii ullamcorper. Agam phaedrum no eos.</p>
+				<p>For this project, I needed to use a very basic grid system, that was able to flow well with the navigation. In the smallest media query, the grid is a 1 column, 100% grid with the responsive navigation menu on top. In the medium media query (min-width: 40em), the grid is 2 columns, 50% / 50% grid with the responsive navigation menu on top. And in the largest media query (min-width: 53.125em), the grid is also 2 columns, with the responsive navigation menu floated to the right at a 222px fixed width. </p>
 				<h3>Small Device Grid</h3>
 				<div class="sm_grid">100% — Col 1</div>
 				<h3>Medium Device Grid</h3>
@@ -45,13 +46,13 @@
 				<h3>Large Device Grid</h3>
 				<div class="lg_grid">
 					<div class="lg_nav">Fixed Width — 222px</div>
-					<div class="lg_left">50% — Col1</div>
-					<div class="lg_right">50% — Col1</div>
+					<div class="lg_left">50% — Col 1</div>
+					<div class="lg_right">50% — Col 2</div>
 				</div>
 			</div>
 			<div class="type" id="type">
 				<h2 class="top">Type System</h2>
-				<p>Lorem ipsum dolor sit amet, autem inani an sit, libris maluisset adipiscing ea eum, decore adipisci ei nam. Ea erant tritani apeirian eam, ad duis phaedrum pri.</p>
+				<p>When exploring typefaces, I came across Phoreus Cherokee, which I felt really represented the look and feel of this project and was reminecent of ornate wrought iron fenching you see all over the French Quarter. I used Phoreus Cherokee on all headers, and I paired it with Azo Sans for the body copy, links and list items. Azo Sans is a simple, geometric font with great readability. </p>
 				<div class="phoreus">
 				<h3>Phoreus Cherokee</h3>
 				<span>by TypeCulture</span>
@@ -73,6 +74,7 @@
 			</div>
 			<div class="color" id="color">
 				<h2 class="top">Color Palette</h2>
+				<p>The French Quarter Festival is in the beginning of spring every year, which also marks the start of crawfish season (big deal y'all). The French Quarter also has very vibrant house colors and art hanging all over the fence around Jackson Square. I wanted to shy away from colors normally associated with New Orleans (Mardi Gras and Saints colors) and really pull from the vibrancy and season.</p>
 				<h3>Primary</h3>
 				<div class="red">
 				<div class="red_block"></div>
@@ -106,8 +108,8 @@
 						<li>Variable = $logo_highlight</li>
 					</ul>
 				</div>
-				<p>Lorem ipsum dolor sit amet, autem inani an sit, libris maluisset adipiscing ea eum, decore adipisci ei nam. Ea erant tritani apeirian eam, ad duis phaedrum pri.</p>
 				<h3>Secondary</h3>
+				<p>I used simple colors for all the text and navigation backgrounds, since the other background colors are so vibrant. I used white text on darker background colors, and the dark grey for light or white background colors.</p>
 				<div class="dk_grey">
 				<div class="dkgrey_block"></div>
 				<ul>
@@ -124,12 +126,11 @@
 					<li>Variable = $lt_text</li>
 				</ul>
 				</div>
-				<p>Lorem ipsum dolor sit amet, autem inani an sit, libris maluisset adipiscing ea eum, decore adipisci ei nam. Ea erant tritani apeirian eam, ad duis phaedrum pri.</p>
 			</div>
 			<div class="logo_icons" id="logo_icons">
 			<div class="logo">
 				<h2 class="top">FQF Logo</h2>
-				<p>Lorem ipsum dolor sit amet, autem inani an sit, libris maluisset adipiscing ea eum, decore adipisci ei nam. Ea erant tritani apeirian eam, ad duis phaedrum pri.</p>
+				<p>I started logo exploration for this project by making a morpholical matrix of common imagery and icons you would associate with the French Quarter and New Orleans. After combining these elements and iterating them several times in Illustrator, I ultimately ended up going with a typographic solution for the festival logo. The small device logo should be used on any screen size 640px and under.</p>
 				<h3>Small Device</h3>
 				<div class="sm_logo"><img src="assets/fqf_logo_sm.svg"></div>
 				<h3>Full Size</h3>
@@ -164,10 +165,14 @@
 				<div class="sub">Sponsor and Artist</div>
 				<div class="foot">Volunteer</div>
 				<h3>Navigation</h3>
-				<div class="responsive_nav"><img src="assets/responsive_nav.png"></div>
+				<p>Responsive dropdown in global/mobile media query</p>
+				<div class="responsive_nav"><img src="assets/responsiv_dropdown.png"></div>
+				<p>Responsive Navigation in medium device media query (min-width:40em)</p>
 				<div class="md_nav"><img src="assets/md_nav.png"></div>
+				<p>Responsive navigation in large device media query (min-width:53.125em) with a fixed width of 222px and floated left of all content.</p>
 				<div class="side_nav"><img src="assets/side_nav.png"></div>
 				<div class="side_foot"><img src="assets/side_foot.png"></div>
+				<p class="clear">Day and Location navigation for all events and vendor pages</p>
 				<div class="day_nav"><img src="assets/day_nav.png"></div>
 				<p>Lorem ipsum dolor sit amet, autem inani an sit, libris maluisset adipiscing ea eum, decore adipisci ei nam. Ea erant tritani apeirian eam, ad duis phaedrum pri. Id sea iisque aperiam tractatos, wisi praesent cum et. Usu te eros fastidii ullamcorper. Agam phaedrum no eos.</p>
 				<h3>Sponsors</h3>

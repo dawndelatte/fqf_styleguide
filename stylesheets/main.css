@@ -136,7 +136,7 @@ a, p, span {
 
 li {
   font-family: Helvetica, sans-serif;
-  font-size: 1.2em;
+  font-size: 1.1em;
   line-height: 1.4;
   font-weight: 300; }
 
@@ -227,6 +227,11 @@ header {
   position: fixed;
   width: 100%; }
 
+.styleguide_logo {
+  width: 80px;
+  float: left;
+  margin: 2em 2em; }
+
 /*==========Grid==========*/
 .sm_grid {
   background-color: #005957;
@@ -263,8 +268,8 @@ header {
   overflow: hidden;
   margin-bottom: 2em; }
   .red .red_block {
-    width: 100px;
-    height: 100px;
+    width: 110px;
+    height: 110px;
     background-color: #c70b0f;
     float: left; }
   .red ul {
@@ -275,8 +280,8 @@ header {
   overflow: hidden;
   margin-bottom: 2em; }
   .teal .teal_block {
-    width: 100px;
-    height: 100px;
+    width: 110px;
+    height: 110px;
     background-color: #4c9bac;
     float: left; }
   .teal ul {
@@ -287,8 +292,8 @@ header {
   overflow: hidden;
   margin-bottom: 2em; }
   .yellow .yellow_block {
-    width: 100px;
-    height: 100px;
+    width: 110px;
+    height: 110px;
     background-color: #dce269;
     float: left; }
   .yellow ul {
@@ -299,8 +304,8 @@ header {
   overflow: hidden;
   margin-bottom: 2em; }
   .highlight .highlight_block {
-    width: 100px;
-    height: 100px;
+    width: 110px;
+    height: 110px;
     background-color: #dfe925;
     float: left; }
   .highlight ul {
@@ -311,8 +316,8 @@ header {
   overflow: hidden;
   margin-bottom: 2em; }
   .dk_grey .dkgrey_block {
-    width: 100px;
-    height: 100px;
+    width: 110px;
+    height: 110px;
     background-color: #4b4648;
     float: left; }
   .dk_grey ul {
@@ -323,8 +328,8 @@ header {
   overflow: hidden;
   margin-bottom: 2em; }
   .white .white_block {
-    width: 100px;
-    height: 100px;
+    width: 110px;
+    height: 110px;
     background-color: #ffffff;
     border: 1px solid #ccc;
     float: left; }
@@ -406,6 +411,9 @@ header {
 .top_tier {
   margin-bottom: 3em; }
 
+.responsive_nav, .md_nav, .side_nav, .foot_nav, .day_nav {
+  margin-bottom: 5em; }
+
 @media screen and (min-width: 43.75em) {
   header {
     width: 200px;
@@ -420,10 +428,23 @@ header {
     float: right;
     margin: 0 auto;
     padding-left: 200px;
-    padding-right: 2em; } }
+    padding-right: 2em; }
+
+  .styleguide_logo {
+    margin: 2em 3.75em; } }
 @media screen and (min-width: 55em) {
   .lil_mama {
     float: none;
-    margin: 0 auto; } }
+    margin: 0 auto; }
+
+  .side_nav, .side_foot {
+    width: 48%;
+    float: left; }
+
+  .side_nav {
+    margin-right: 4%; }
+
+  .clear {
+    clear: both; } }
 
 /*# sourceMappingURL=main.css.map */
