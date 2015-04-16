@@ -116,6 +116,13 @@ header {
 .lg_left, .lg_right, .lg_nav, .md_left, .md_right, .sm_grid {
   color: white; }
 
+.main {
+  color: #ffffff;
+  font-weight: 300; }
+
+.sub, .foot {
+  color: #4b4648; }
+
 /*Variables for French Quarter Festival*/
 /*Variables for StyleGuide*/
 h1, h2, h3 {
@@ -191,6 +198,15 @@ p {
 .azo .nope {
   font-family: Helvetica, sans-serif;
   font-size: 1.25em; }
+
+.text_examples h1, .text_examples h2, .text_examples h3, .text_examples p {
+  padding-bottom: 0;
+  padding-top: 1em; }
+
+.main, .sub, .foot {
+  font-family: "azo-sans-web", sans-serif;
+  font-size: 1.3em;
+  font-weight: 300; }
 
 body * {
   -webkit-box-sizing: border-box;
@@ -319,7 +335,8 @@ header {
 /*==========Logo and Icons==========*/
 .sm_logo {
   width: 100px;
-  height: 100px; }
+  height: 100px;
+  margin-bottom: 3em; }
 
 .lg_logo {
   width: 200px;
@@ -335,6 +352,9 @@ header {
   height: 150px;
   border: 1px solid #ccc;
   border-radius: 50%; }
+
+.gf {
+  margin-bottom: 3em; }
 
 .veg {
   margin-bottom: 2em; }
@@ -352,6 +372,39 @@ header {
 .umbrella, .streetcar {
   width: 200px;
   height: 200px; }
+
+.streetcar {
+  margin-bottom: 2em; }
+
+/*==========Images, SVGs, iFrames==========*/
+.image_screenshot, .svg_screenshot {
+  margin-bottom: 3em; }
+
+/*==========Elements==========*/
+.main, .sub, .foot {
+  width: 250px;
+  text-align: center;
+  margin-bottom: 2em; }
+
+.main {
+  background-color: #4b4648;
+  padding: 1.5em 0;
+  border-bottom: 4px solid #dce269; }
+  .main:hover {
+    background-color: #4c9bac; }
+
+.sub:hover {
+  color: #4c9bac; }
+
+.foot {
+  background-color: #4b4648;
+  padding: 1.5em 0;
+  color: #ffffff; }
+  .foot:hover {
+    color: #dfe925; }
+
+.top_tier {
+  margin-bottom: 3em; }
 
 @media screen and (min-width: 43.75em) {
   header {

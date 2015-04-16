@@ -159,6 +159,7 @@ ul {
 .sm_logo{
     width: 100px;
     height: 100px;
+    margin-bottom: 3em;
 }
 .lg_logo {
     width: 200px;
@@ -177,6 +178,8 @@ ul {
     border: 1px solid #ccc;
     border-radius: 50%;
 }
+
+.gf {margin-bottom: 3em;}
 
 .veg {margin-bottom: 2em;}
 
@@ -201,10 +204,47 @@ ul {
     height: 200px;
 }
 
+.streetcar {
+    margin-bottom: 2em;
+}
+
+/*==========Images, SVGs, iFrames==========*/
+
+.image_screenshot, .svg_screenshot {
+    margin-bottom: 3em;
+}
 
 
+/*==========Elements==========*/
 
+.main, .sub, .foot {
+    width: 250px;
+    text-align: center;
+    margin-bottom: 2em;
+}
 
+.main {
+    background-color: $dk_text;
+    padding: 1.5em 0;
+    border-bottom: 4px solid $primary_yellow;
 
+    &:hover {
+        background-color: $primary_teal;
+    }
+}
 
+.sub:hover {color: $primary_teal;}
 
+.foot {
+    background-color: $dk_text;
+    padding:  1.5em 0;
+    color: $lt_text;
+
+    &:hover {
+        color: $logo_highlight;
+    }
+}
+
+.top_tier {
+    margin-bottom: 3em;
+}

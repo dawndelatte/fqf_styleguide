@@ -49,5 +49,13 @@ p {padding-bottom: 1em;}
 	span {display: block; padding-bottom: 1em;}
 	p {font-size: 2em;}
 	.nope {font-family: $styleguide; font-size: 1.25em;}
-	// h2 .example, h3 .example {padding-bottom: 0; padding-top: .5em;}
 }
+
+.text_examples {
+	h1, h2, h3, p{
+		padding-bottom: 0;
+		padding-top: 1em;
+	}
+}
+
+.main, .sub, .foot {font-family: $primary; font-size: 1.3em; font-weight: 300;}
