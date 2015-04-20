@@ -1,4 +1,4 @@
-# fqf_styleguide
+# French Quarter Festival Style Guide
 
 This is a style guide for my final project at The Iron Yard. 
 For my final project, I did a redesign for The French Quarter Festival website. 
